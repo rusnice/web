@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	  <!-- Важная техническая информация для браузера -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- для IE -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"><!-- для адаптивности -->
+
+		<!-- Информация об Авторе и описание проекта -->
+		<meta name="description" content="Сайт разработчика Руслана Джураева">
+		<meta name="auyhor" content="Руслан Джураев">
+
+		<!-- Иконка, которая будет на вкладке в браузере -->
+		<link rel="icon" href="img/favicon.ico">
+		<!-- Заголовок на вкладке в браузере -->
+		<title>Джураев Руслан - Создание сайтов</title>
+		<!-- Шрифт 31:40 в уроке -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="packages/font-awesome-4.7.0/css/font-awesome.min.css">
+		<!-- Библиотека анимации-->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- 12 колоночная сетка -->
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<!-- Оформление сайта -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Для плавного перехода вверх -->
+		<script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<img class="header-img animated fadeInLeftBig" src="img/1layers.png" alt="Монитор(Покажет, если картинка не загрузится)">
+			</div>
+			<!-- /.col-7 -->
+			<div class="col-lg-5">
+				<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Вэб-разработчик</p>
+				<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Джураев Руслан</h1>
+				<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML5/CSS3</p>
+				<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
+					<a href="https://vk.me/rus_nice" class="header-button" target="_blank">Связаться</a>
+					<small>*Это бесплатно</small>
+				</div>
+			</div>
+			<!-- /.col-5 -->
+		</div>
+		<!-- /.row (.row|c+tab чтоб не запутаться в закрывающих тегах)-->
+	</div>
+</header>
+
+<section class="portfolio">
+	<div class="container">
+		<div class="portfolio-block wow fadeIn" data-wow-delay="1,2s">
+			<h2 class="portfolio-title">Портфолио</h2>
+			<p class="portfolio-subtitle">Мои работы</p>	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="portfolio-col-1">
+						<img class="portfolio-col-1-img" src="img/2layers.png" alt="Газпром">
+						<h3>внутренний университет «Газпром нефти»</h3>
+						<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для сотрудников. Это настоящий университет, где сотрудники проходят обучение у внутренних тренеров компании или у специально приглашенных лекторов и экспертов....</p>
+						<a href="http://institute.gazprom.ru/" target="_blank">Смотреть работу</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="portfolio-col-2">
+						<img class="portfolio-col-2-img" src="img/3layers.png" alt="Мир">
+						<h3>Сайт платежной системы «Мир»</h3>
+						<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями, уже принимающими карты к оплате, и приглашает всех остальных присоединиться к проекту...</p>
+						<a href="http://mironline.ru/" target="_blank">Смотреть работу</a>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10"></div>
+			<div class="col-md-2">
+				<div id="footer-button-up-block">
+					<!-- <a id="footer-button-up" href="#top"> Резкий переход вверх -->
+					<a id="footer-button-up"> 
+						<img id="footer-button-up-arrow" src="img/arrow-point-to-right.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<h4 class="footer-author">Джураев Руслан</h4>
+				<p class="footer-text">Разработка сайтов под ключ</p>
+			</div>
+			<div class="col-md-4">
+				<div class="social-block">
+					<p>Подпишитесь:</p><!-- a*4>img формула для быстрой прописи -->
+					<a class="wow bounceInUp" data-wow-delay="0.1s" href="https://www.facebook.com/ruslan.dzhuraev.798" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+					<a class="wow bounceInUp" data-wow-delay="0.2s" href="https://t.me/RusNice" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+					<a class="wow bounceInUp" data-wow-delay="0.3s" href="https://github.com/rusnice" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+					<a class="wow bounceInUp" data-wow-delay="0.4s" href="https://vk.com/rus_nice" target="_blank"><i class="fa fa-vk fa-2x" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="footer-cta-block wow shake" data-wow-delay="2s"">
+					<p class="footer-cta">Напишите мне:</p>
+					<a href="https://vk.me/rus_nice" class="footer-button" target="_blank">Написать</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- скрипт для плавного перехода вверх -->
+<script type="text/javascript"> 
+$(function() {
+$(window).scroll(function() {
+if($(this).scrollTop() != 0) {
+$('#footer-button-up').fadeIn();
+} else {
+$('#footer-button-up').fadeOut();
+}
+});
+$('#footer-button-up').click(function() {
+$('body,html').animate({scrollTop:0},800);
+});
+});
+</script>
+<!-- Дополнительная библиотека для управления animate -->
+<script src="js/wow.min.js"></script>
+<!-- Включение доп.библиотеки -->
+<script>
+	new WOW().init();
+</script>
+
+</body>
+</html>
